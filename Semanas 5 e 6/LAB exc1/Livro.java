@@ -1,11 +1,11 @@
 public class Livro {
     private String titulo;
     private String autor;
-    private String anoPublicacao;
-    private float preco;
+    private int anoPublicacao;
+    private double preco;
     private int paginas;
     
-    public Livro(String titulo, String autor, String anoPublicacao, float preco, int paginas) {
+    public Livro(String titulo, String autor, int anoPublicacao, int paginas, double preco) {
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
@@ -13,15 +13,15 @@ public class Livro {
         this.paginas = paginas;
     }
     
-    public void ImprimeInfo(){
+    public void imprimeInfo(){
         System.out.println("Título: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("Ano de publicação: " + anoPublicacao);
         System.out.println("Quantidade de páginas: " + paginas);
         System.out.println("Preço: R$" + preco);
     }
-    public float calcularPrecoPorPagina(){
-        float soma = preco/paginas;
+    public double calcularPrecoPorPagina(){
+        double soma = preco/paginas;
         return soma;
     }
     
@@ -41,19 +41,19 @@ public class Livro {
         this.autor = autor;
     }
     
-    public String getAnoPublicacao() {
+    public int getAnoPublicacao() {
         return anoPublicacao;
     }
     
-    public void setAnoPublicacao(String anoPublicacao) {
+    public void setAnoPublicacao(int anoPublicacao) {
         this.anoPublicacao = anoPublicacao;
     }
     
-    public float getPreco() {
+    public double getPreco() {
         return preco;
     }
     
-    public void setPreco(float preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
     
