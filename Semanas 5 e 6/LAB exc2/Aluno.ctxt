@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Aluno
+comment1.params=nome\ notaA\ notaB
+comment1.target=Aluno(java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=double\ calculaMediaFinal()
+comment3.params=
+comment3.target=java.lang.String\ imprimeInfo()
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=
+comment6.target=double\ getNotaA()
+comment7.params=notaA
+comment7.target=void\ setNotaA(double)
+comment8.params=
+comment8.target=double\ getNotaB()
+comment9.params=notaB
+comment9.target=void\ setNotaB(double)
+numComments=10
