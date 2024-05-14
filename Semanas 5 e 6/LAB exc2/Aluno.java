@@ -15,11 +15,11 @@ public class Aluno{
     }
     
     
-    public String imprimeInfo(){
-        double media = calculaMediaFinal();
-        String info = "nome do aluno =" + nome + "\nNotaA =" + notaA + "\nNotaB=" + notaB + "\nMédia =" + media; 
-        
-        return info;
+   public void imprimeInfo(){
+        System.out.println("Nome do aluno: "+nome);
+        System.out.println("Nota do GA: "+notaA);
+        System.out.println("Nota do GB: "+notaB);
+        System.out.println("Média final: "+calculaMediaFinal());
     }
     
     public String getNome(){
